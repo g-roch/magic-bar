@@ -11,7 +11,8 @@
   ],
   "auth": "github:g-roch",
   "depends": [
-    "Cro::HTTP"
+    "Cro::HTTP",
+    "Config"
   ],
   "build-depends": [],
   "test-depends": [
