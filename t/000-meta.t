@@ -19,9 +19,17 @@
 
 use Test;
 use Test::META;
+use Concurrent::File::Find;
 
-plan 1;
+plan 2;
 
 meta-ok;
+
+subtest "Project don't use old Perl6 extensions", {
+    plan 3;
+    nok find("lib/", :extension("pm6")), "no .pm6 extension in lib/ directory";
+    nok find(".", :extension("p6")), "no .p6 extension in the project directory";
+    nok find(".", :extension("pod")), "no .pod extension in the project directory";
+}
 
 done-testing;

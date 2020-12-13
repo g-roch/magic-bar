@@ -10,6 +10,6 @@ endpoints:
     host-env: MAGICBAR_HOST
     port-env: MAGICBAR_PORT
 links:  []
-entrypoint: service.p6
+entrypoint: service.raku
 env:  []
 ...

@@ -2,7 +2,10 @@
   "name": "MagicBar",
   "description": "A OpenSearch server",
   "version": "0.0.1",
-  "perl": "6.*",
+  "raku": "6.*",
+  "tags": [
+    "Server", "OpenSearch"
+  ],
   "authors": [
     "Gabriel Roch"
   ],
@@ -13,10 +16,11 @@
   "build-depends": [],
   "test-depends": [
     "Cro::HTTP::Test",
-    "Test::META"
+    "Test::META",
+    "Concurrent::File::Find"
   ],
   "provides": {
-    "MagicBar::Routes": "lib/MagicBar/Routes.pm6"
+    "MagicBar::Routes": "lib/MagicBar/Routes.rakumod"
   },
   "resources": [],
   "license": "AGPL-3.0-or-later",
