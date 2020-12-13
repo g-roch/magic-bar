@@ -1,23 +1,24 @@
 {
   "name": "MagicBar",
-  "description": "Write me!",
-  "version": "0.1",
+  "description": "A OpenSearch server",
+  "version": "0.0.1",
   "perl": "6.*",
   "authors": [
-    "Write me!"
+    "Gabriel Roch"
   ],
-  "auth": "Write me!",
+  "auth": "github:g-roch",
   "depends": [
     "Cro::HTTP"
   ],
   "build-depends": [],
   "test-depends": [
-    "Cro::HTTP::Test"
+    "Cro::HTTP::Test",
+    "Test::META"
   ],
   "provides": {
     "MagicBar::Routes": "lib/MagicBar/Routes.pm6"
   },
   "resources": [],
-  "license": "Write me!",
-  "source-url": "Write me!"
+  "license": "AGPL-3.0-or-later",
+  "source-url": "https://github.com/g-roch/magic-bar.git"
 }
