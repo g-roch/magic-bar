@@ -1,0 +1,15 @@
+---
+id: "MagicBar"
+cro: 1
+name: "MagicBar"
+endpoints:
+  -
+    id: http
+    name: HTTP
+    protocol: http
+    host-env: MAGICBAR_HOST
+    port-env: MAGICBAR_PORT
+links:  []
+entrypoint: service.p6
+env:  []
+...
