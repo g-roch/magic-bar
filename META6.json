@@ -2,10 +2,6 @@
   "name": "MagicBar",
   "description": "A OpenSearch server",
   "version": "0.0.1",
-  "raku": "6.*",
-  "tags": [
-    "Server", "OpenSearch"
-  ],
   "authors": [
     "Gabriel Roch"
   ],
@@ -22,9 +18,15 @@
     "Pod::Literate"
   ],
   "provides": {
+    "MagicBar": "lib/MagicBar.rakumod",
     "MagicBar::Routes": "lib/MagicBar/Routes.rakumod"
   },
   "resources": [],
   "license": "AGPL-3.0-or-later",
-  "source-url": "https://github.com/g-roch/magic-bar.git"
+  "tags": [
+    "Server",
+    "OpenSearch"
+  ],
+  "source-url": "https://github.com/g-roch/magic-bar.git",
+  "raku": "6.*"
 }

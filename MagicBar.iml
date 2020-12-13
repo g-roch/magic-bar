@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/t" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/lib/.precomp" />
       <excludeFolder url="file://$MODULE_DIR$/.precomp" />
     </content>
@@ -181,24 +182,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Config" type="perl6">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="raku://1165951842:Config!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="IO::Path::XDG:version&lt;0.2.0&gt;" type="perl6">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="raku://1165951842:IO::Path::XDG:version&lt;0.2.0&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="META6" type="perl6">
         <CLASSES />
         <JAVADOC />
@@ -222,15 +205,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="raku://1165951842:JSON::Name!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Hash::Merge:version&lt;2.0.0&gt;" type="perl6">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="raku://1165951842:Hash::Merge:version&lt;2.0.0&gt;!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -262,15 +236,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="IO::Glob" type="perl6">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="raku://1165951842:IO::Glob!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="License::SPDX" type="perl6">
         <CLASSES />
         <JAVADOC />
@@ -298,15 +263,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Log:auth&lt;cpan:TYIL&gt;:version&lt;0.3.0&gt;" type="perl6">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="raku://1165951842:Log:auth&lt;cpan:TYIL&gt;:version&lt;0.3.0&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="JSON::Unmarshal:ver&lt;0.08+&gt;" type="perl6">
         <CLASSES />
         <JAVADOC />
@@ -330,6 +286,51 @@
         <JAVADOC />
         <SOURCES>
           <root url="raku://1165951842:Pod::Literate!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Path::XDG:version&lt;0.2.0&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:IO::Path::XDG:version&lt;0.2.0&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Config" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Config!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Hash::Merge:version&lt;2.0.0&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Hash::Merge:version&lt;2.0.0&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Glob" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:IO::Glob!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log:auth&lt;cpan:TYIL&gt;:version&lt;0.3.0&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Log:auth&lt;cpan:TYIL&gt;:version&lt;0.3.0&gt;!/" />
         </SOURCES>
       </library>
     </orderEntry>

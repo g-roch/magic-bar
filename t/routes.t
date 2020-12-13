@@ -28,11 +28,22 @@ along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 use Cro::HTTP::Test;
 use Test;
 use MagicBar::Routes;
+use MagicBar;
+use Config;
 
-test-service routes, {
+
+my $config = Config.new({
+    port => 8888,
+    host => "0.0.0.0",
+    name => "MagicBar",
+}, :name<magicbar>);
+
+my MagicBar $bar .= new: |$config.get;
+
+test-service routes($bar), {
     test get('/'),
             status => 200,
-            body-text => '<h1> MagicBar </h1>';
+            body-text => *.contains($bar.discovery-link);
 }
 
 done-testing;

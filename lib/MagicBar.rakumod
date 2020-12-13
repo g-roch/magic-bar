@@ -1,6 +1,6 @@
 =begin pod
 
-=NAME    MagicBar/Routes.rakumod
+=NAME    service.rakue of MagicBar
 =VERSION 0.0.1
 =AUTHOR  Gabriel Roch <gabriel@g-roch.ch>
 
@@ -25,25 +25,13 @@ along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 
 =end pod
 
-use Cro::HTTP::Router;
+unit class MagicBar;
 
-use MagicBar;
+has $.host is required;
+has UInt $.port is required;
+has Str $.name is required;
 
-sub routes(MagicBar $bar) is export {
-    route {
-        get -> {
-            content 'text/html', qq:to/HTML/;
-            <!doctype html>
-            <html>
-                <head>
-                    { $bar.discovery-link }
-                </head>
-                <body>
-                    <h1> { $bar.name } </h1>
-                </body>
-            </html>
-            HTML
-
-        }
-    }
+method discovery-link {
+    return "<link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"$!name\"
+      href=\"//$!host:$!port/opensearch.xml\">"
 }

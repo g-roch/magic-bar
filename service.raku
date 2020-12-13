@@ -28,18 +28,22 @@ along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 use Cro::HTTP::Log::File;
 use Cro::HTTP::Server;
 use MagicBar::Routes;
+use MagicBar;
 use Config;
 
 my $config = Config.new({
     port => 8888,
     host => "0.0.0.0",
+    name => "MagicBar",
 }, :name<magicbar>);
+
+my MagicBar $bar .= new: |$config.get;
 
 my Cro::Service $http = Cro::HTTP::Server.new(
     http => <1.1>,
     host => $config<host>,
     port => $config<port>,
-    application => routes(),
+    application => routes($bar),
     after => [
         Cro::HTTP::Log::File.new(logs => $*OUT, errors => $*ERR)
     ]
