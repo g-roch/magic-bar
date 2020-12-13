@@ -180,5 +180,158 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Config" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Config!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Path::XDG:version&lt;0.2.0&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:IO::Path::XDG:version&lt;0.2.0&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="META6" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:META6!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="URI" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:URI!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Name" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:JSON::Name!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Hash::Merge:version&lt;2.0.0&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Hash::Merge:version&lt;2.0.0&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Test" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Test!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Test::META" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Test::META!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Marshal:ver&lt;0.0.19+&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:JSON::Marshal:ver&lt;0.0.19+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Glob" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:IO::Glob!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="License::SPDX" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:License::SPDX!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Class:ver&lt;0.0.14+&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:JSON::Class:ver&lt;0.0.14+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Class:ver&lt;0.0.15+&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:JSON::Class:ver&lt;0.0.15+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log:auth&lt;cpan:TYIL&gt;:version&lt;0.3.0&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Log:auth&lt;cpan:TYIL&gt;:version&lt;0.3.0&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Unmarshal:ver&lt;0.08+&gt;" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:JSON::Unmarshal:ver&lt;0.08+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Concurrent::File::Find" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Concurrent::File::Find!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::Literate" type="perl6">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="raku://1165951842:Pod::Literate!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

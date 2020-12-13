@@ -15,9 +15,10 @@
   ],
   "build-depends": [],
   "test-depends": [
+    "Concurrent::File::Find",
     "Cro::HTTP::Test",
     "Test::META",
-    "Concurrent::File::Find"
+    "Pod::Literate"
   ],
   "provides": {
     "MagicBar::Routes": "lib/MagicBar/Routes.rakumod"
